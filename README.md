@@ -2,15 +2,15 @@
 
 更新发布通道：更新清单 + Windows x64 下载包（FrameCurator）。
 
-- 当前版本：**1.0.0.30**（build 30）
-- 最近更新：HEIC 解码组件改为独立 DLL 随包分发(许可合规),包内新增第三方许可声明;报告页新增文件名搜索/只看已勾选/反向选择/按组筛选/组号点击跳转/大库分页;主界面取消按钮空闲提示与打开报告降级提示;删除勾选显示逐张进度。
+- 当前版本：**1.0.0.33**（build 33）
+- 最近更新：修复自动更新:当更新源缓存滞后时,老版本现在直接升级到最新版,不再逐级多次更新。
 
 ## 下载
 
 | 用途 | 文件 |
 |---|---|
-| 首次安装（推荐，双击即装） | [FrameCurator-1.0.0.30-thirdparty-sources.zip](https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.30/FrameCurator-1.0.0.30-thirdparty-sources.zip) |
-| 便携版 / 自动更新载荷 | [FrameCurator-1.0.0.30-win-x64.zip](https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.30/FrameCurator-1.0.0.30-win-x64.zip) |
+| 首次安装（推荐，双击即装） | [FrameCurator-1.0.0.33-thirdparty-sources.zip](https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.33/FrameCurator-1.0.0.33-thirdparty-sources.zip) |
+| 便携版 / 自动更新载荷 | [FrameCurator-1.0.0.33-win-x64.zip](https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.33/FrameCurator-1.0.0.33-win-x64.zip) |
 
 ## 安装与使用
 
@@ -21,10 +21,10 @@
 ## 校验（sha256）
 
 ```text
-FrameCurator-1.0.0.30-win-x64.zip
-  1d7ef0172730c2dfdbe431cc423903647f19e65dc41c7117e7e5b4c70e52e67f
-FrameCurator-1.0.0.30-thirdparty-sources.zip
-  450b97404336124f7bf40063a8338a6a7514f3c5c53c2c8a6dfeaa9ede74b754
+FrameCurator-1.0.0.33-win-x64.zip
+  833f6002ce156fd5e788ea6d5d651281ec9000a7f0e41c5f8e46915a47658bac
+FrameCurator-1.0.0.33-thirdparty-sources.zip
+  db409a39e35e99cbb5397c50a11b8c972afc81b1ccf19306bcc1851e757d70a9
 ```
 
 ## 自动更新
@@ -33,4 +33,4 @@ FrameCurator-1.0.0.30-thirdparty-sources.zip
 按 build 号比较；发现新版本时提示下载，校验 sha256 后自动替换并重启。手动检查入口在程序主界面。
 
 ---
-本文件由发布流程自动生成/更新（portable-app-release 技能，2026-09-19），请勿手工改动。
+本文件由发布流程自动生成/更新（portable-app-release 技能，2026-09-20），请勿手工改动。

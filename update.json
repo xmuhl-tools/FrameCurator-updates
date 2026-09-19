@@ -1,13 +1,13 @@
 {
   "product": "FrameCurator",
-  "build": 30,
-  "version": "1.0.0.30",
-  "notes": "HEIC 解码组件改为独立 DLL 随包分发(许可合规),包内新增第三方许可声明;报告页新增文件名搜索/只看已勾选/反向选择/按组筛选/组号点击跳转/大库分页;主界面取消按钮空闲提示与打开报告降级提示;删除勾选显示逐张进度。",
-  "asset": "FrameCurator-1.0.0.30-win-x64.zip",
-  "sha256": "1d7ef0172730c2dfdbe431cc423903647f19e65dc41c7117e7e5b4c70e52e67f",
+  "build": 33,
+  "version": "1.0.0.33",
+  "notes": "修复自动更新:当更新源缓存滞后时,老版本现在直接升级到最新版,不再逐级多次更新。",
+  "asset": "FrameCurator-1.0.0.33-win-x64.zip",
+  "sha256": "833f6002ce156fd5e788ea6d5d651281ec9000a7f0e41c5f8e46915a47658bac",
   "mirrors": [
-    "https://ghfast.top/https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.30/FrameCurator-1.0.0.30-win-x64.zip",
-    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.30/FrameCurator-1.0.0.30-win-x64.zip"
+    "https://ghfast.top/https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.33/FrameCurator-1.0.0.33-win-x64.zip",
+    "https://mirror.ghproxy.com/https://github.com/xmuhl-tools/FrameCurator-updates/releases/download/v1.0.0.33/FrameCurator-1.0.0.33-win-x64.zip"
   ],
-  "size": 8703250
+  "size": 8703015
 }
